@@ -1,0 +1,16 @@
+{
+  "name": "astro-weather-app",
+  "version": "1.0.0",
+  "private": false,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "devDependencies": {
+    "@astrojs/preact": "0.5.1",
+    "astro": "1.0.0-beta.72",
+    "preact": "10.6.5"
+  }
+}
