@@ -1,14 +1,18 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import App from "@components/App";
+import Layout from "@layouts/Layout.astro";
 ---
 
 <Layout title="Home">
 	<main>
-		<h1>Index</h1>
-		
+		<App></App>
+
 	</main>
 </Layout>
 
 <style>
-	
+	main {
+		max-width: 1080px;
+		margin: 20px auto;
+	}
 </style>

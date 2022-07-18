@@ -8,6 +8,9 @@
     "build": "astro build",
     "preview": "astro preview"
   },
+  "dependencies": {
+    "react-select-async-paginate": "0.6.1"
+  },
   "devDependencies": {
     "@astrojs/preact": "0.5.1",
     "astro": "1.0.0-beta.72",
