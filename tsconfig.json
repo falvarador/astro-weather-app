@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "baseUrl": ".",
     "isolatedModules": true,
     "module": "ESNext",
     "moduleResolution": "node",
@@ -17,7 +18,7 @@
       ],
       "@pages/*": [
         "src/pages/*"
-      ],
+      ]
     }
   }
 }

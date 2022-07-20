@@ -1,19 +1,21 @@
 {
   "name": "astro-weather-app",
   "version": "1.0.0",
-  "private": false,
+  "private": true,
+  "engines": {
+    "node": "18.x"
+  },
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview"
   },
-  "dependencies": {
-    "react-select-async-paginate": "0.6.1"
-  },
   "devDependencies": {
-    "@astrojs/preact": "0.5.1",
+    "@typescript-eslint/eslint-plugin": "5.30.7",
+    "@typescript-eslint/parser": "5.30.6",
     "astro": "1.0.0-beta.72",
-    "preact": "10.6.5"
+    "eslint-plugin-astro": "0.15.0",
+    "eslint": "8.20.0"
   }
 }
